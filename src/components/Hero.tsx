@@ -30,7 +30,7 @@ export default function Hero() {
                 >
                     <div className="absolute -inset-1 rounded-full bg-gradient-to-r from-primary to-secondary blur opacity-25 animate-pulse" />
                     <span className="relative inline-block px-4 py-1.5 text-xs font-bold uppercase tracking-widest bg-background/80 backdrop-blur-sm text-primary rounded-full mb-4 border border-primary/30 shadow-sm">
-                        Open to Work & Continuous Learning
+                        Eager to Learn & Build
                     </span>
                 </motion.div>
 
@@ -43,7 +43,7 @@ export default function Hero() {
                     Hi, I&apos;m <span className="text-transparent bg-clip-text bg-gradient-to-br from-primary via-primary/80 to-secondary/60">Suryansh</span>.
                     <br />
                     <span className="text-2xl md:text-4xl lg:text-5xl text-foreground font-semibold mt-4 block">
-                        I Speak Java So Regulators Don&apos;t Have To.
+                        Software Engineer
                     </span>
                 </motion.h1>
 
@@ -53,9 +53,9 @@ export default function Hero() {
                     transition={{ duration: 0.5, delay: 0.2 }}
                     className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed"
                 >
-                    Processing <strong>100k+ trades daily</strong> is just another day at the office.
-                    I build the high-frequency backend infrastructure of the future,
-                    <strong> leaning forward to master </strong> the next wave of tech.
+                    Building <strong>scalable backend systems</strong> and enterprise solutions with
+                    <strong> Java, Spring Boot, and Microservices</strong>.
+                    Always <strong>eager to explore and master</strong> emerging technologies.
                 </motion.p>
 
                 <motion.div

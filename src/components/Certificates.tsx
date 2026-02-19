@@ -10,6 +10,14 @@ import { Button } from "@/components/ui/button";
 
 const certificates = [
     {
+        title: "AWS Certified Machine Learning - Associate",
+        issuer: "Amazon Web Services",
+        image: "/res/certificates/AWS_ml_associate.png",
+        tags: ["Cloud", "AWS", "Machine Learning"],
+        issueDate: "February 18, 2026",
+        expirationDate: "February 18, 2029",
+    },
+    {
         title: "AWS Certified Cloud Practitioner",
         issuer: "Amazon Web Services",
         image: "/res/certificates/AWS_accp_certificate.jpg",

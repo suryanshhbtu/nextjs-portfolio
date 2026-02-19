@@ -10,6 +10,13 @@ import { Button } from "@/components/ui/button";
 
 const badgesList = [
     {
+        title: "AWS Certified Machine Learning - Associate",
+        issuer: "Amazon Web Services",
+        image: "/res/badges/aws_ml_associate.png",
+        tags: ["Cloud", "AWS", "Machine Learning"],
+        date: "2026"
+    },
+    {
         title: "AWS Certified Cloud Practitioner",
         issuer: "Amazon Web Services",
         image: "/res/badges/aws_accp_badge.jpg",

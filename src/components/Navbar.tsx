@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { usePathname } from "next/navigation";
+import Logo from "@/components/Logo";
 
 const navItems = [
     { name: "Home", href: "#home" },
@@ -47,8 +48,11 @@ export default function Navbar() {
                 <div className="container mx-auto px-4 md:px-6">
                     <div className="flex items-center justify-between h-16">
                         {/* Logo */}
-                        <Link href="/" className="text-xl font-bold font-heading tracking-tight hover:opacity-80 transition-opacity">
-                            Suryansh Srivastava
+                        <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
+                            <Logo className="h-10 w-10" />
+                            <span className="text-xl font-bold font-heading tracking-tight hidden sm:inline">
+                                Suryansh Srivastava
+                            </span>
                         </Link>
 
                         {/* Desktop Navigation */}
